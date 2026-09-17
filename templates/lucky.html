@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Число {{ number }}{% endblock %}
+
+{% block content %}
+<div class="lucky-container">
+    <h1>🔮 Число {{ number }}</h1>
+    <div class="lucky-meaning">
+        <p class="meaning-text">{{ meaning }}</p>
+    </div>
+    <a href="/" class="back-link">← Вернуться на главную</a>
+</div>
+{% endblock %}
