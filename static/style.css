@@ -1,0 +1,75 @@
+body {
+    font-family: Times New Roman,serif;
+    font-sixe: 20px;
+    margin: 0;
+    background-color: #efdecd;
+}
+
+header {
+    background-color: #cb6586;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+}
+
+footer {
+    max-width: 900px;
+    margin: 20px auto;
+    color: #660099;
+}
+.lucky-container {
+    text-align: center;
+    padding: 40px;
+}
+
+.lucky-meaning {
+    background: #FFE4C4;
+    border: 3px solid #F4A460;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 30px auto;
+    max-width: 500px;
+}
+
+.meaning-text {
+    font-size: 24px;
+    color: #4A3728;
+    font-weight: bold;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #F4A460;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.error-container {
+    text-align: center;
+    padding: 40px;
+}
